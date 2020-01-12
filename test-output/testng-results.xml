@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13498" started-at="2020-01-12T12:07:44 EST" finished-at="2020-01-12T12:07:58 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13498" started-at="2020-01-12T12:07:44 EST" finished-at="2020-01-12T12:07:58 EST">
+      <class name="com.class02.HW">
+        <test-method status="PASS" signature="open()[pri:0, instance:com.class02.HW@4b4523f8]" name="open" is-config="true" duration-ms="5666" started-at="2020-01-12T12:07:44 EST" finished-at="2020-01-12T12:07:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="validationOfMessage()[pri:1, instance:com.class02.HW@4b4523f8]" name="validationOfMessage" duration-ms="455" started-at="2020-01-12T12:07:50 EST" finished-at="2020-01-12T12:07:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfMessage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.class02.HW@4b4523f8]" name="close" is-config="true" duration-ms="99" started-at="2020-01-12T12:07:50 EST" finished-at="2020-01-12T12:07:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="open()[pri:0, instance:com.class02.HW@4b4523f8]" name="open" is-config="true" duration-ms="4973" started-at="2020-01-12T12:07:50 EST" finished-at="2020-01-12T12:07:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="validationOfLogo()[pri:2, instance:com.class02.HW@4b4523f8]" name="validationOfLogo" duration-ms="2215" started-at="2020-01-12T12:07:55 EST" depends-on-methods="com.class02.HW.validationOfMessage" finished-at="2020-01-12T12:07:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfLogo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.class02.HW@4b4523f8]" name="close" is-config="true" duration-ms="54" started-at="2020-01-12T12:07:58 EST" finished-at="2020-01-12T12:07:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.class02.HW -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
